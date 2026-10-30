@@ -1,0 +1,6 @@
+# Link checking configuration.
+#
+# Lychee checks external and internal links. Exclusions are per repo:
+# add noisy hosts under `exclude` rather than turning the check off.
+
+exclude = []
