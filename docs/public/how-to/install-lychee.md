@@ -1,10 +1,10 @@
 ---
-title: How to install lychee
+title: Install lychee
 type: how-to
 domain: toolkit
 ---
 
-# How to install lychee
+# Install lychee
 
 > **How-to guide**: Installs the lychee link checker into `~/.local/bin` without root. Use when the toolkit's QC checks need link checking on a machine.
 
@@ -13,7 +13,7 @@ Install the lychee link checker into `~/.local/bin` without root. Pre-built arch
 ## Prerequisites
 
 - `curl` and `tar`.
-- `~/.local/bin` on your `PATH` (see [How to install Vale](install-vale.md) for the one-line addition).
+- `~/.local/bin` on your `PATH` (see [Install Vale](install-vale.md) for the one-line addition).
 
 ## Steps
 
@@ -56,6 +56,6 @@ Exit status is `0` when every link resolves.
 
 ## Related
 
-- [How to install Vale](install-vale.md) — the prose and style QC checks.
-- [How to install markdownlint-cli2](install-markdownlint.md) — the Markdown QC checks.
+- [Install Vale](install-vale.md) — the prose and style QC checks.
+- [Install markdownlint-cli2](install-markdownlint.md) — the Markdown QC checks.
 - [lychee configuration and commands](../../../tools/lychee/README.md) — the exact commands and reviewed-candidate policy.

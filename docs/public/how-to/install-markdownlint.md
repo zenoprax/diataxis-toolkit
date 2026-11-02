@@ -1,10 +1,10 @@
 ---
-title: How to install markdownlint-cli2
+title: Install markdownlint-cli2
 type: how-to
 domain: toolkit
 ---
 
-# How to install markdownlint-cli2
+# Install markdownlint-cli2
 
 > **How-to guide**: Installs markdownlint-cli2, the toolkit's Markdown linter, with npm into a user-level prefix. Use when the Markdown QC checks need markdownlint-cli2 on a machine.
 
@@ -29,7 +29,7 @@ It needs no root access and does not touch the system Node installation.
    npm install -g --prefix "$HOME/.local" markdownlint-cli2
    ```
 
-2. Confirm the install. npm places binaries in `~/.local/bin`, which must be on your `PATH` (see [How to install Vale](install-vale.md)):
+2. Confirm the install. npm places binaries in `~/.local/bin`, which must be on your `PATH` (see [Install Vale](install-vale.md)):
 
    ```bash
    npm ls -g --prefix "$HOME/.local" markdownlint-cli2 --depth=0
@@ -58,10 +58,10 @@ Run from the repository root so the relative config path resolves.
 - **`markdownlint-cli2: command not found`** — `~/.local/bin` is not on `PATH`; see Prerequisites.
 - **`npm: command not found`** — install Node.js 20 or later, which provides npm.
 - **`Summary: 0 issues in 0 files`** — the glob matched nothing. Quote it so the shell does not expand it, and run from the repository root.
-- **A finding you disagree with** — check whether the configuration should disable or tune the rule before suppressing it ad hoc; the QC configuration is in [the Markdown linter configuration](../../../tools/markdownlint/README.md).
+- **A finding you disagree with** — check whether the configuration should disable or tune the rule before suppressing it ad hoc. The QC configuration is in [the Markdown linter configuration](../../../tools/markdownlint/README.md).
 
 ## Related
 
-- [How to install Vale](install-vale.md) — the prose and style QC checks.
-- [How to install lychee](install-lychee.md) — the link checker.
+- [Install Vale](install-vale.md) — the prose and style QC checks.
+- [Install lychee](install-lychee.md) — the link checker.
 - [Markdown linter configuration and commands](../../../tools/markdownlint/README.md) — the exact commands and alerting semantics.

@@ -1,10 +1,10 @@
 ---
-title: How to install Vale
+title: Install Vale
 type: how-to
 domain: toolkit
 ---
 
-# How to install Vale
+# Install Vale
 
 > **How-to guide**: Installs the Vale prose linter into `~/.local/bin` without root. Use when the toolkit's QC checks need Vale on a machine.
 
@@ -67,6 +67,6 @@ vale --config /tmp/vale-smoke.ini /tmp/vale-smoke.md
 
 ## Related
 
-- [How to install markdownlint-cli2](install-markdownlint.md) — the Markdown QC checks.
-- [How to install lychee](install-lychee.md) — the link checker.
+- [Install markdownlint-cli2](install-markdownlint.md) — the Markdown QC checks.
+- [Install lychee](install-lychee.md) — the link checker.
 - [Vale configuration and commands](../../../tools/vale/README.md) — the exact commands and alerting semantics.
